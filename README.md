@@ -24,3 +24,18 @@
   * .app.js 整个项目的配置文件</br>
   * index.js
   * package.json 引入相关文件版本号，整个项目的主入口 </br>
+
+### 安装包
+   
+安装包之前需要先安装nodejs
+
+在clone的项目根目录直接
+npm install
+
+### 启动
+
+1) linux 或者 mac 环境
+npm start
+2） windows
+set NODE_ENV=“development”
+npm start
