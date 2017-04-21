@@ -11,7 +11,7 @@ const router = new Router({
 });
 
 // redirect index
-router.get('/', ctx => ctx.redirect('index/index'));
+router.get('/', ctx => ctx.redirect('index'));
 
 // Set router
 Object.keys(routes).forEach(name => router.use(`/${name}`, routes[name][index].routes(), routes[name][index].allowedMethods()));
