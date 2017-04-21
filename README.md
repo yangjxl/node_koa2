@@ -12,6 +12,8 @@
     * js   js文件夹</br>
   * src
     * config  配置不同环境的文件夹</br>
+      * index.js 主要配置文件
+      * development.js 开发环境下的端口配置
     * controller 主要逻辑实现文件夹</br>
     * middleware 中间件</br>
     * router 配置路由</br>
